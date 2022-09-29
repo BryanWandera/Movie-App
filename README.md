@@ -1,16 +1,9 @@
 # movie_app
 
-A new Flutter application.
+This application shows movies on the homescreen. When clicked, one can view a brief overview of the movie.
 
-## Getting Started
+A user can also search for movies by title.
 
-This project is a starting point for a Flutter application.
+The data is pulled from "movidb.org"
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+The application consists of 3 screens, whose state is managed using the Provider package.
